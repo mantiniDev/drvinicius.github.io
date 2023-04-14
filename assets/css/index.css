@@ -1,5 +1,10 @@
 body {
   font-family: 'Aleo', serif;
+  min-height: 100vh;
+}
+
+html {
+  height: 100%;
 }
 
 
@@ -9,8 +14,9 @@ footer {
   background-color: #1ac27f;
   color: #f28cc4;
   padding: 20px 0;
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;  
 }
 
@@ -32,6 +38,7 @@ img {
 .container {
   display: flex;
   flex-wrap: wrap;
+  min-height: 100%;
 }
 
 .img-container {
@@ -52,7 +59,7 @@ img {
 .rounded-image {
   border-radius: 50%;
   position: initial;
-  width: 500px;
+  width: 330px;
   height: 150px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
@@ -109,3 +116,5 @@ img {
 }
 
 /* icones contatos*/
+
+/* menu */
